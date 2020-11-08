@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.title{
+    color: rgb(2, 29, 2);
+    text-align:center;
+    font-size: 25px;
+}
+
+.navigation{
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgb(73, 129, 77);
+    text-align: floating to right;
+    font-size: 20px;
+  }
+.body{
+    background-color:rgba(193, 228, 179, 0.945) ;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+td{
+    background-color: white;
+}
+
+td:nth-child(1)
+{
+  background-color: yellow;
+  
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products{
+    display: block; 
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 51, 17);
+    color: white;
+    text-align: center;
+ }
+.cookie{
+    width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  float: right;
+  text-align: center;
+  background-color: #fa0;
+  color: #fff;
+  position:fixed;
+  top:0;
+  right:0;
+}
+
+.product1{
+    float: right;
+}
+.product2{
+    float: right;
+}
+.product3{
+    float: right;
+}
+
